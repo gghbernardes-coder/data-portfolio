@@ -20,7 +20,16 @@ Unificando 2 bases, priorizando 1 delas, normalizando emails e removendo duplici
 ### 3. [Automation Daily Report](projects/03-automation-daily-report)
 Automação de relatório diário gerando Excel com abas de resumo e dados crus.
 ### Exemplo de relatório diário (Projeto 03)
-Dados crus organizados
+Este projeto automatiza a geração de relatórios diários em **Excel** a partir de dados de pedidos.
+
+- **Entrada**: `data/orders.csv` (lista de pedidos com data, status e valor).  
+- **Processo**: script em Python (`report.py`) que lê os pedidos, cria um **resumo diário por status** (ex.: pagos, cancelados, reembolsados) e salva junto com os dados crus.  
+- **Saída**: `outputs/daily_report.xlsx` com duas abas:
+  - **Resumo** → consolidação de valores por dia/status.
+  - **Raw** → todos os pedidos originais.
+
+#### Exemplo de saída
+Camada Raw
 
 ![Daily Report Excel](projects/03-automation-daily-report/outputs/camada_row.png)
 
