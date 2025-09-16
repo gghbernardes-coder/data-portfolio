@@ -1,0 +1,8 @@
+
+order_id,order_date,status,amount
+1,2025-09-01,paid,199.90
+2,2025-09-01,cancelled,0
+3,2025-09-02,paid,49.90
+4,2025-09-02,refunded,-49.90
+5,2025-09-03,paid,299.90
+6,2025-09-03,paid,99.90
