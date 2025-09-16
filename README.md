@@ -1,20 +1,49 @@
+# Data Engineering Portfolio — gghbernardes-coder
 
-# Data Portfolio — Starter Kit
+Bem-vindo ao meu portfólio de dados
+Sou profissional com **6+ anos de experiência em SQL (Oracle, Teradata)**, **ETL (PowerCenter)** e automações de dados.  
+Este repositório mostra exemplos práticos de **ETL, SQL e Python** que costumo entregar para clientes em freelas.
 
-Este repositório é um **portfólio de dados** pronto para você adaptar e publicar no GitHub.
-Inclui **5 projetos curtos**, templates de **perfil/propostas** e um guia de publicação.
+---
 
-## Projetos incluídos
-1. **01-sql-sales-analytics** — consultas SQL (ANSI) com exemplos de KPIs mensais e dicas de performance.
-2. **02-etl-customer-unification** — pipeline ETL simples em Python (pandas) para unificar CRM + ERP.
-3. **03-automation-daily-report** — automação de relatório diário gerando Excel com abas (sumário + raw).
-4. **04-api-enrichment-geocoding** — template para enriquecer endereços via geocoding (trocar stub por API real).
-5. **05-powercenter-to-python-migration** — exemplo de migração de regras de transformação para Python (pandas).
+## 📂 Projetos
 
-## Como usar
-1. Edite os READMEs de cada projeto com seu **contexto real** e prints/explicações.
-2. Rode os scripts localmente (quando aplicável) para gerar **outputs de exemplo**.
-3. Publique no GitHub seguindo `how_to/push_to_github.md`.
-4. Use os templates de **perfil** e **proposta** em `profile/` e `profile/proposal_templates/`.
+### 1. [SQL Sales Analytics](projects/01-sql-sales-analytics)
+Consultas SQL para KPIs de vendas (Oracle/Postgres/Teradata) com ranking de produtos e otimizações.
 
-> Dica: Tire *screenshots* dos resultados e cole nos READMEs para deixar seu portfólio visual.
+### 2. [ETL Customer Unification](projects/02-etl-customer-unification)
+Pipeline em Python (pandas) que unifica bases CRM + ERP, normaliza e-mails e remove duplicidades.
+
+### 3. [Automation Daily Report](projects/03-automation-daily-report)
+Automação de relatório diário gerando Excel com abas de resumo e dados crus.
+
+### 4. [API Enrichment (Geocoding)](projects/04-api-enrichment-geocoding)
+Template para enriquecer endereços com latitude/longitude via API (Google ou OpenCage).
+
+### 5. [PowerCenter to Python Migration](projects/05-powercenter-to-python-migration)
+Exemplo de migração de regras de transformação do PowerCenter para Python (pandas).
+
+---
+
+## 🚀 Como usar
+1. Entre em cada pasta de projeto.  
+2. Instale dependências:  
+   ```bash
+   pip install -r requirements.txt```
+3. Rode o script principal (ex.: python etl.py).
+4. Resultados ficam em outputs/.
+
+---
+
+## 🎯 Serviços que ofereço
+- Limpeza e deduplicação de bases (CSV/Excel/SQL)  
+- Queries SQL otimizadas (Oracle, Teradata, Postgres)  
+- Pipelines ETL em Python (pandas)  
+- Relatórios automatizados em Excel/CSV  
+
+---
+
+## 📩 Contato
+- GitHub: [gghbernardes-coder](https://github.com/gghbernardes-coder)  
+- LinkedIn: (adicione seu perfil aqui)  
+- E-mail: seuemail@exemplo.com
