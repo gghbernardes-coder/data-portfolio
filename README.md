@@ -19,6 +19,11 @@ Unificando 2 bases, priorizando 1 delas, normalizando emails e removendo duplici
 
 ### 3. [Automation Daily Report](projects/03-automation-daily-report)
 Automação de relatório diário gerando Excel com abas de resumo e dados crus.
+### Exemplo de relatório diário (Projeto 03)
+Dados crus organizados
+![Daily Report Excel](projects/03-automation-daily-report/outputs/camada_row.png)
+Resumo unificado
+![Daily Report Excel](projects/03-automation-daily-report/outputs/resumo.png)
 
 ### 4. [API Enrichment (Geocoding)](projects/04-api-enrichment-geocoding)
 Template para enriquecer endereços com latitude/longitude via API (Google ou OpenCage).
