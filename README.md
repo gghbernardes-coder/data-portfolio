@@ -14,6 +14,7 @@ Consultas SQL para KPIs de vendas (Oracle/Postgres/Teradata) com ranking de prod
 ### 2. [ETL Customer Unification](projects/02-etl-customer-unification)
 Pipeline em Python (pandas) que unifica bases CRM + ERP, normaliza e-mails e remove duplicidades.
 ### Exemplo de saída — ETL Customer Unification
+Unificando 2 bases, priorizando 1 delas, normalizando emails e removendo duplicidades.
 ![ETL Output](projects/02-etl-customer-unification/outputs/result.png)
 
 ### 3. [Automation Daily Report](projects/03-automation-daily-report)
