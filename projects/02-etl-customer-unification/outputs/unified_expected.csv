@@ -1,0 +1,6 @@
+name,email,phone,email_norm,source
+Alice,aLiCe@example.com,555-0101,alice@example.com,CRM
+Beatriz,beatriz@example.com,555-0110,beatriz@example.com,ERP
+Bob,bob@example.com,555-0102,bob@example.com,CRM
+Carlos,carlos@example.com,555-0103,carlos@example.com,CRM
+Diego,diego@example.com,555-0111,diego@example.com,ERP
