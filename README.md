@@ -1,8 +1,8 @@
-# Data Engineering Portfolio — gghbernardes-coder
+# Data Engineering & Web Scraping Portfolio — gghbernardes-coder
 
 Welcome to my data portfolio 👋  
 I am a professional with **6+ years of experience in SQL (Oracle, Teradata)**, **ETL (PowerCenter)**, and data automation.  
-This repository showcases practical examples of **ETL, SQL, and Python** projects that I typically deliver to freelance clients.
+This repository showcases practical examples of **ETL, SQL, Web Scraping, and Python** projects that I typically deliver to freelance clients.
 
 ---
 
@@ -62,6 +62,26 @@ Template to enrich addresses with latitude/longitude using APIs (Google or OpenC
 ### 5. [PowerCenter to Python Migration](projects/05-powercenter-to-python-migration)
 Example of migrating transformation rules from PowerCenter to Python (pandas).
 
+### 6. [Web Scraping & Product Automation](projects/06-web-scraping-product-automation)
+A complete web scraping and automation solution for e-commerce.  
+
+#### Web Scraping & Automation Example
+This project demonstrates how to extract product information and images from an online store and automatically register them on another site (client’s e-commerce).
+
+- **Input (scraping)**: Products from a partner website (name, price, description, category, and images).  
+- **Process**:  
+  - Navigate through product pages with **Selenium**.  
+  - Extract structured data using **BeautifulSoup**.  
+  - Download and save product images with **requests**.  
+  - Transform data into a **clean Excel file** and optional **HTML export**.  
+  - Automate product registration on another site using **Selenium** (form filling, image upload, product publishing).  
+- **Output**:  
+  - `outputs/products.xlsx` → standardized Excel with all products.  
+  - `outputs/images/` → organized product images.  
+  - Client’s e-commerce populated automatically with scraped products.
+
+**Libraries used:** `selenium`, `webdriver_manager`, `BeautifulSoup`, `pandas`, `requests`, `pyautogui`, `json`, `os`, `time`, `pickle`
+
 ---
 
 ## 🚀 How to use
@@ -80,6 +100,7 @@ Example of migrating transformation rules from PowerCenter to Python (pandas).
 - Optimized SQL queries (Oracle, Teradata, Postgres)  
 - ETL pipelines in Python (pandas)  
 - Automated reporting in Excel/CSV  
+- Web scraping and product automation for e-commerce
 
 ---
 
